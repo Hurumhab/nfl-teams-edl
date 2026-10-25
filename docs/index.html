@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="32 NFL-joukkueen viralliset domainit PAN-OS:n perinteisenä URL EDL -tekstilistana.">
+  <title>NFL-joukkueiden URL EDL</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+    body { max-width: 52rem; margin: auto; padding: 3rem 1.25rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; }
+    a { color: #0969da; text-underline-offset: .2em; }
+    code, pre { background: #eff2f6; border-radius: .4rem; }
+    code { padding: .15rem .3rem; }
+    pre { padding: 1rem; overflow-x: auto; }
+    pre code { padding: 0; }
+    .label { font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; }
+    .button { display: inline-block; padding: .7rem 1rem; border-radius: .4rem; background: #0969da; color: #fff; font-weight: 700; text-decoration: none; }
+    footer { border-top: 1px solid #888; margin-top: 3rem; padding-top: 1rem; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) { a { color: #80baff; } code, pre { background: #202733; } }
+  </style>
+</head>
+<body>
+<main>
+  <p class="label">Palo Alto PAN-OS · GitHub Pages</p>
+  <h1>32 NFL-joukkuetta.<br>Yksi URL EDL.</h1>
+  <p>Virallisten pääsivustojen juuridomainit ja www-hostit: 64 riviä puhdasta tekstiä. Tarkistettu NFL:n omasta hakemistosta 25.10.2026.</p>
+  <p><a class="button" href="nfl-teams.txt">Avaa EDL-tekstilista</a></p>
+  <h2>Palomuurin Source-osoite</h2>
+  <pre><code>https://hurumhab.github.io/nfl-teams-edl/nfl-teams.txt</code></pre>
+  <p>Valitse <strong>Objects → External Dynamic Lists → Add → Type: URL List</strong>. Käytä Source-kentässä yllä olevaa .txt-osoitetta. Tämä esittelysivu on HTML:ää ja tarkoitettu luettavaksi selaimessa.</p>
+  <p>Lista on perinteinen ulkoiselta HTTPS-palvelimelta ladattava EDL. Se ei käytä SCM Hosted EDL -mallia.</p>
+  <h2>Käyttöönotto ja lähteet</h2>
+  <ul>
+    <li><a href="https://github.com/Hurumhab/nfl-teams-edl#readme">PAN-OS-käyttöönotto, HTTPS-varmennus ja osumatesti</a></li>
+    <li><a href="https://github.com/Hurumhab/nfl-teams-edl/blob/main/SOURCES.md">Kaikki 32 joukkuetta ja lähdeosoitteet</a></li>
+    <li><a href="https://www.nfl.com/teams/">NFL:n virallinen joukkuehakemisto</a></li>
+  </ul>
+  <p>Lista kattaa juuri- ja www-hostit. Muut alidomainit ja ulkoiset kauppa-, video- tai lipunmyyntipalvelut eivät sisälly siihen. Liitä lista haluamaasi palomuurikäytäntöön ja varmista osumat omalla PAN-OS-versiollasi.</p>
+</main>
+<footer>Itsenäinen domainlista. Ei NFL:n tai Palo Alto Networksin virallinen julkaisu. Domainien muutoksia ei seurata automaattisesti.</footer>
+</body>
+</html>
